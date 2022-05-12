@@ -22,7 +22,8 @@ except:
 #password_characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~'
 password_characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789|#$%&*+-.@'
 
-for k in range(10)
+print()
+for k in range(10):
     password = []
 
     for x in range(password_length):
@@ -30,4 +31,5 @@ for k in range(10)
 #
 # using the f-string is more python in printing in version 3
 #
-    print(f"\n{''.join(password)} \n")
+    print(f"{''.join(password)} ")
+print()

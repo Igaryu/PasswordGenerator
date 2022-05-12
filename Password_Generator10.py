@@ -19,8 +19,8 @@ except:
 #
 # using a static string avoids loading unnecessary libraries at this point (like import string)
 #
-#password_characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~'
-password_characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789|#$%&*+-.@'
+password_characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~'
+#password_characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789|#$%&*+-.@'
 
 print("")
 for k in range(10):
@@ -32,4 +32,4 @@ for k in range(10):
 # using the f-string is more python in printing in version 3
 #
     print(f"{''.join(password)} ")
-print("")
+print()
